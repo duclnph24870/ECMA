@@ -18,20 +18,13 @@
     "es6": true
   },
   "extends": [
-    "airbnb",
-    "airbnb-typescript",
-    "airbnb/hooks",
-    "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "prettier",
     "plugin:tailwindcss/recommended"
   ],
   "rules": {
-    "react/react-in-jsx-scope": "off",
-    "react/jsx-props-no-spreading": 0,
     "@typescript-eslint/semi": "off",
-    "react/jsx-filename-extension": ["warn", { "extensions": [".ts", ".tsx"] }],
     "no-useless-catch": "off",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
@@ -46,10 +39,7 @@
       }
     ],
     "no-console": "off",
-    "import/no-extraneous-dependencies": "off",
-    "@next/next/no-img-element": "off",
-    "react/require-default-props": "off",
-    "react-hooks/exhaustive-deps": "off"
+    "import/no-extraneous-dependencies": "off"
   },
   "overrides": [
     {
