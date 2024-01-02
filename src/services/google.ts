@@ -2,7 +2,6 @@ import { FirebaseError } from 'firebase/app'
 import {
   getAuth,
   GoogleAuthProvider,
-  onAuthStateChanged,
   signInWithPopup,
   signOut,
   User,
@@ -22,7 +21,9 @@ export const signInGoogle = async (): Promise<
     const result = await signInWithPopup(auth, provider)
 
     const user = result.user
-    localStorage.setItem(ACCESS_TOKEN, user.refreshToken)
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    localStorage.setItem(ACCESS_TOKEN, (user as any).accessToken)
     return [user, undefined]
   } catch (error) {
     const err = error as FirebaseError
@@ -56,11 +57,3 @@ export const signOutGoogle = async () => {
     ]
   }
 }
-
-onAuthStateChanged(auth, (user) => {
-  if (user) {
-    console.log('Người dùng đang đăng nhập')
-  } else {
-    console.log('Người dùng đã đăng xuất')
-  }
-})
