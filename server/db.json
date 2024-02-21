@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "email": "duc@gmail.com",
+      "name": "Ngoc Duc ",
+      "birthday": "2001-10-12",
+      "createdAt": 1708445872003,
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "category_id": "3",
+      "avatar_url": "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg",
+      "price": 1234544,
+      "title": "Sản phẩm 32",
+      "createdAt": 1708520319875,
+      "id": 2
+    },
+    {
+      "category_id": "2",
+      "avatar_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5PkW4fJsvhTn3s9hnv2nSU7a5jkGYsUH9Zl7YOHZKeA&s",
+      "price": 12,
+      "title": "san pham 2",
+      "createdAt": 1708522332439,
+      "id": 3
+    }
+  ]
+}

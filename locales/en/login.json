@@ -1,0 +1,10 @@
+{
+  "title": "Login",
+  "email_place": "Email address",
+  "password_place": "Password",
+  "login": "Login",
+  "forgot_password": "Forgot your password?",
+  "sns_title": "Log in with another account",
+  "register_condition": "Don't have an account?",
+  "register_link": "Register"
+}

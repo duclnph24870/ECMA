@@ -1,0 +1,29 @@
+{
+  "step1": {
+    "title": "Account Registration",
+    "email_place": "Email address",
+    "username_place": "Name",
+    "subTitle": "Please enter your name and email address",
+    "submit": "Authentication"
+  },
+  "step2": {
+    "title": "Email Verification",
+    "subTitle": "Please enter your verification code",
+    "code": "Code",
+    "submit": "Register",
+    "resend": "Resend"
+  },
+  "step3": {
+    "title": "Information settings",
+    "submit": "Register",
+    "password_place": "Password (8-20)",
+    "password_confirm_place": "Password (for confirmation)",
+    "age_place": "Age",
+    "country_code_place": "Nationality",
+    "address_place": "Address",
+    "phone_number_place": "Phone number",
+    "confirm_button": "I agree to the terms of use and the handling of personal information"
+  },
+  "success": "Account registration was successful",
+  "resend_success": "Your confirmation code has been sent again"
+}

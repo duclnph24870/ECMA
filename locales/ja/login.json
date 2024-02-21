@@ -1,0 +1,10 @@
+{
+  "title": "ログイン",
+  "email_place": "メールアドレス",
+  "password_place": "パスワード",
+  "login": "ログイン",
+  "forgot_password": "パスワードをお忘れの方",
+  "sns_title": "ほかのアカウントでログインする",
+  "register_condition": "アカウントがありません？",
+  "register_link": "登録"
+}

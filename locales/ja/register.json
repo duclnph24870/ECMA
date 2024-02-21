@@ -1,0 +1,29 @@
+{
+  "step1": {
+    "title": "アカウント登録",
+    "email_place": "メールアドレス",
+    "username_place": "氏名",
+    "subTitle": "氏名とメールアドレスを入力してください",
+    "submit": "認証"
+  },
+  "step2": {
+    "title": "メール認証",
+    "subTitle": "確認コードを入力してください",
+    "code": "コード",
+    "submit": "登録",
+    "resend": "再送信する"
+  },
+  "step3": {
+    "title": "情報設定",
+    "submit": "登録",
+    "password_place": "パスワード（8〜20）",
+    "password_confirm_place": "パスワード（確認用）",
+    "age_place": "年齢",
+    "country_code_place": "国籍",
+    "address_place": "住所",
+    "phone_number_place": "電話番号",
+    "confirm_button": "利用規約、個人情報の取り扱いについて同意"
+  },
+  "success": "アカウント登録が成功しました",
+  "resend_success": "確認コードが再度送信されました"
+}

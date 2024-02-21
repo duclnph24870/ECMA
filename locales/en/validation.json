@@ -1,0 +1,15 @@
+{
+  "required": "Please enter {{field}}.",
+  "max": "Please enter no more than {{number}} characters.",
+  "min": "Please enter more than {{number}} characters.",
+  "min_number": "Please enter a value greater than {{number}} for {{field}}",
+  "max_number": "Please enter a value smaller than {{number}} for {{field}}",
+  "regex": "Please specify the correct format for {{field}}.",
+  "password": "Please enter at least 8 characters, including at least 3 types of half-width alphanumeric characters and symbols.",
+  "password_confirmation": {
+    "required": "Please enter your password to confirm.",
+    "same": "Passwords do not match."
+  },
+  "email": "Please enter in email format.",
+  "valid_date": "Please enter a valid date."
+}
